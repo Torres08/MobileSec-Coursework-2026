@@ -1,0 +1,60 @@
+# -----------------------------
+# Android / Gradle Standard
+# -----------------------------
+# Built application files (Temporary)
+#*.apk
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+build/
+
+# Gradle files (Cache)
+.gradle/
+build/
+
+# -----------------------------
+# Personal / Private Files
+# -----------------------------
+# Local configuration file (Contains YOUR sdk path - DO NOT UPLOAD)
+local.properties
+
+# Log Files
+*.log
+
+# -----------------------------
+# IDE (Android Studio) Settings
+# -----------------------------
+# IntelliJ / Android Studio
+*.iml
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Captures (Screen recordings etc)
+captures/
+
+# -----------------------------
+# OS System Files
+# -----------------------------
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# -----------------------------
+# Archives (Optional)
+# -----------------------------
+*.zip
+*.tar.gz
