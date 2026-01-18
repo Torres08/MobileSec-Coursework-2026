@@ -1,4 +1,4 @@
-# 1. Filehasher
+# Filehasher
 
 You will need to write an app that exports a functionality to compute the SHA256 hash of a given file. You will need to define an activity with an intent filter for the "com.mobiotsec.intent.action.HASHFILE" action. The system will start your activity and ask you to hash a file.
 
@@ -17,4 +17,10 @@ Intent resultIntent = new Intent();
 resultIntent.putExtra("hash", hash);
 setResult(Activity.RESULT_OK, resultIntent);
 finish()
+```
+
+## Solution:
+
+```bash
+2026-01-18 12:51:32.941  7249-7249  MOBIOTSEC               com.example.victimapp                I  Good job! The expected hash and the received hash match! The flag is FLAG{piger_ipse_sibi_obstat}
 ```
