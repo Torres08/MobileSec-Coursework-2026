@@ -1,0 +1,7 @@
+The developer of the justlisten app has decided to protect the value of the flag 
+from third-party apps that might intercept the Intent sent in broadcast. 
+To achieve his aim, the developer has encrypted the flag before sending it in broadcast. 
+
+Complete the challenge by: 
+- understanding the encryption algorithm introduced by the developer
+- replacing in the template app provided within the zip file all the ***** symbols with the appropriate ones

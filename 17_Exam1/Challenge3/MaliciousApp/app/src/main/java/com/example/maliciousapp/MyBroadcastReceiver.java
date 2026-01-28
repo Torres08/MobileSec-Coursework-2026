@@ -36,7 +36,7 @@ public class MyBroadcastReceiver extends BroadcastReceiver {
         Cipher cipher = Cipher.getInstance(AES_TRANSFORMATION);
         // cipher.init("***", "***");
 
-        
+        // 2. Initialize Cipher for DECRYPTION (Mode 2) with the Key
         cipher.init(Cipher.DECRYPT_MODE, secretKey);
 
         byte[] decryptedBytes = cipher.doFinal(Base64.decode(encryptedText, Base64.DEFAULT));

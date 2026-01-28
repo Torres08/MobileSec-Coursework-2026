@@ -1,0 +1,18 @@
+{
+  "projectVersion": 2,
+  "files": [
+    "goingseriousnative.apk"
+  ],
+  "treeExpansionsV2": [],
+  "codeData": {
+    "comments": [],
+    "renames": []
+  },
+  "openTabs": [],
+  "cacheDir": "/home/torres/.cache/jadx/projects/goingseriousnative-7ac2a329be93d3910d0afd3ee5a5c8ca",
+  "enableLiveReload": false,
+  "searchHistory": [],
+  "searchResourcesFilter": "$TEXT",
+  "searchResourcesSizeLimit": 0,
+  "pluginOptions": {}
+}

@@ -1,0 +1,52 @@
+{
+  "projectVersion": 2,
+  "files": [
+    "victim.apk"
+  ],
+  "treeExpansionsV2": [
+    "c:com.example.victimapp.MainActivity",
+    "t:JResources"
+  ],
+  "codeData": {
+    "comments": [],
+    "renames": []
+  },
+  "openTabs": [
+    {
+      "type": "resource",
+      "tabPath": "AndroidManifest.xml",
+      "subPath": "",
+      "caret": 513,
+      "view": {
+        "x": 0,
+        "y": 35
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.example.victimapp.MainActivity",
+      "subPath": "java",
+      "caret": 2646,
+      "view": {
+        "x": 0,
+        "y": 53
+      },
+      "active": true,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    }
+  ],
+  "cacheDir": "/home/torres/.cache/jadx/projects/victim-c833ad1fd05ec59339635f63596eb665",
+  "enableLiveReload": false,
+  "searchHistory": [],
+  "searchResourcesFilter": "$TEXT",
+  "searchResourcesSizeLimit": 0,
+  "pluginOptions": {}
+}

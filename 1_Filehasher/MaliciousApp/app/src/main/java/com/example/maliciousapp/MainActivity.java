@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
             Uri fileUri = intent.getData();
 
             if (fileUri != null) {
-                Log.d(tag, "File URI: " + fileUri.getPath());
+                Log.d(tag, "File URI: " + fileUri);
 
                 String hash = calculateSHA256(fileUri);
 

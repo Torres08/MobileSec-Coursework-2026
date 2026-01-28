@@ -1,0 +1,10 @@
+We know that it is not allowed to have two apps with the same package name, but it is possible to have two or more apps with the same signature...the developer of the jokeprovider challenge has decided to introduce a security check for every query request. Unfortunately, he forgot some sensitive information in a directory of the app. 
+
+Complete the challenge by: 
+- replacing in the template app provided within the zip file all the ***** symbols with the appropriate ones
+- understanding the new security mechanism introduced by the developer
+
+
+Tips:
+- the command "apktool d <apk_name>" might useful
+- the password "mobisec" might be useful

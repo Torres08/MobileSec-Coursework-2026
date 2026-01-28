@@ -1,0 +1,8 @@
+The developer of the filehasher challenge has been asked to make the interaction 
+between the victim app and another app more secure. 
+Thus, he has decided to change the way the victim app interacts with another app. 
+
+Complete the challenge by adapting the template of the provided malicious app. 
+
+Hint: no modification to the Java source code is required...
+

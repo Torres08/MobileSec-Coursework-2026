@@ -1,5 +1,5 @@
-package com.example.maliciousapp;
-// package com.example.victimapp;
+//package com.example.victimapp;
+package com.example.victimapp;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -26,14 +26,15 @@ public class AmazingPackage implements Parcelable {
         }
     };
 
-    protected AmazingPackage(Parcel in) {
+    // change protected -> public for access
+    public AmazingPackage(Parcel in) {
         this.pkg = "";
         this.activity = "";
         this.pkg = in.readString();
         this.activity = in.readString();
     }
 
-    protected AmazingPackage(String pkg, String activity) {
+    public AmazingPackage(String pkg, String activity) {
         this.pkg = "";
         this.activity = "";
         this.pkg = pkg;

@@ -71,18 +71,14 @@ public class MainActivity extends AppCompatActivity {
         launcher.launch(intent3);
 
         Intent intent2 = new Intent("com.example.victimapp.intent.action.JUSTASK");
-        intent2.setPackage("com.example.victimapp");
+        // its optional to set the package
+        //intent2.setPackage("com.example.victimapp");
         launcher.launch(intent2);
 
         Intent intent4 = new Intent("com.example.victimapp.intent.action.JUSTASKBUTNOTSOSIMPLE");
-        intent4.setPackage("com.example.victimapp");
+        //intent4.setPackage("com.example.victimapp");
         launcher.launch(intent4);
 
-
-
-
     }
-
-
 
 }
