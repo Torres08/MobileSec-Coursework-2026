@@ -1,0 +1,15 @@
+The developer of the nojumpstars challenge has 
+been asked to fix the source code of the challenge 
+by introducing an additional protection. 
+The developer has achieved his aim 
+(check the C.java class), 
+but unfortunately the protection is not successful. 
+
+Complete the challenge by: 
+- replacing in the template app provided 
+within the zip file all the ***** symbols with the appropriate ones
+- understanding the additional protection 
+introduced by the developer and adding 
+the appropriate bypassing mechanism in the template app  
+
+
